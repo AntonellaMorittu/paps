@@ -4,3 +4,11 @@ en:
     second: ◊ Spread the news ◊
   signup:
     main: Sign up
+  new_article:
+    main: New Article
+  sign_in:
+    main: Sign in
+  log_out:
+    main: Log out
+  pay_with_card:
+    main: Pay with Card

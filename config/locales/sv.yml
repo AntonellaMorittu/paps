@@ -4,3 +4,11 @@ sv:
     second: ◊ Sprid nyheterna ◊
   signup:
     main: Registrera
+  new_article:
+    main: Ny Artikel
+  sign_in:
+    main: Logga in
+  log_out:
+    main: Logga ut
+  pay_with_card:
+    main: Kortbetalning
