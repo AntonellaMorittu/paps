@@ -1,0 +1,14 @@
+fr:
+  header:
+    main: BIENVENU!
+    second: ◊ Diffusez les nouveautés ◊
+  signup:
+    main: s'Inscrivez vous
+  new_article:
+    main: Nouveau Article
+  sign_in:
+    main: Connectez vous
+  log_out:
+    main: Désinscrivez vous
+  pay_with_card:
+    main: Payez avec carte

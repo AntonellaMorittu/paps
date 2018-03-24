@@ -12,3 +12,5 @@ sv:
     main: Logga ut
   pay_with_card:
     main: Kortbetalning
+  article_title:
+    main: Svenska Edition

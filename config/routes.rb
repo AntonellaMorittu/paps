@@ -8,7 +8,7 @@ Rails.application.routes.draw do
     resources :comments, only: [:create, :new, :show]
   end
 
-  scope '(:locale)', locale: /en|sv|nl/ do
+  scope '(:locale)', locale: /en|sv|nl|fr/ do
     #Point your 'root_path' to whatever controller and action you want
     root controller: :home, action: :index
   end
