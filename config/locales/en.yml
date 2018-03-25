@@ -14,6 +14,9 @@ en:
     edit_article: Edit article
     delete_article: Delete Article
     submit_article: Submit
+    success_create: Article successfully created.
+    success_update: Article successfully updated.
+    success_delete: Article successfully deleted.
   sign_in:
     new_session: Sign in
     new_session_page: Sign in
@@ -31,6 +34,9 @@ en:
     comment: Comment
     email: E-mail
     submit_comment: Submit
+    success: "Comment was successfully created."
   password:
     forgot_password: Forgot your password?
     reset_password_button: Send me reset password instructions
+  field:
+    cannot_be_empty: Fields cannot be blank.

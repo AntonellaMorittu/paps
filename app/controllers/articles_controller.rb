@@ -10,7 +10,7 @@ class ArticlesController < ApplicationController
   def create
     @article = Article.new(article_params)
     if @article.save
-      flash[:success] = "Article was successfully created."
+      flash[:success] = t('article.success_create')
       redirect_to @article
     else
       flash[:error] = "Field cannot be blank!"
@@ -25,10 +25,10 @@ class ArticlesController < ApplicationController
   def update
     @article = Article.find(params[:id])
     if @article.update_attributes(article_params)
-      flash[:success] = 'Article successfully updated.'
+      flash[:success] = t('article.success_update')
       redirect_to @article
     else
-      flash[:error] = "Fields cannot be blank."
+      flash[:error] = t('field.cannot_be_empty')
       render 'edit'
      end
   end
@@ -40,7 +40,7 @@ class ArticlesController < ApplicationController
   def destroy
     @article = Article.find(params[:id])
     @article.destroy
-    flash[:success] = "Article successfully deleted."
+    flash[:success] = t('article.success_delete')
     redirect_to root_path
   end
 
