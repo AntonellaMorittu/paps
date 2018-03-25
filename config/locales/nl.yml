@@ -1,0 +1,14 @@
+nl:
+  header:
+    main: WELKOM!
+    second: ◊ Verspreid het nieuws ◊
+  signup:
+    main: Registreer
+  new_article:
+    main: Nieuw Artikel
+  sign_in:
+    main: Log in
+  log_out:
+    main: Log uit
+  pay_with_card:
+    main: Betaal met kaart

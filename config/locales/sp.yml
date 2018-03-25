@@ -1,0 +1,14 @@
+sp:
+  header:
+    main: BIENVENIDA!
+    second: ◊ Disperca las noticias ◊
+  signup:
+    main: Regístrate
+  new_article:
+    main: Nuevo Artículo
+  sign_in:
+    main: Registrarse
+  log_out:
+    main: Darse de baja
+  pay_with_card:
+    main: Pagad con carte
