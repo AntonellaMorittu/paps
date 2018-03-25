@@ -19,9 +19,9 @@ class HomeController < ApplicationController
 
   def set_edition
     if User.near([57.700501, 11.975463], 50).include? current_user
-      @edition = 'Gothenburg Edition'
+      @edition = 'Gothenburg'
     else
-      @edition = 'Rest of Sweden Edition'
+      @edition = 'Rest of Sweden'
     end
   end
 
