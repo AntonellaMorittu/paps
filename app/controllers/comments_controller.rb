@@ -4,7 +4,7 @@ class CommentsController < ApplicationController
     @article = Article.find(params[:article_id])
     @comment = @article.comments.create(comment_params)
     if @comment.save
-      flash[:success] = "Comment was successfully created."
+      flash[:success] = t('comment.success')
       redirect_to @article
     else
       flash[:error] = "Field cannot be blank."

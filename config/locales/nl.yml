@@ -2,13 +2,41 @@ nl:
   header:
     main: WELKOM!
     second: ◊ Verspreid het nieuws ◊
-  signup:
-    main: Registreer
-  new_article:
-    main: Nieuw Artikel
+  sign_up:
+    new_user: Registreer
+    sign_up_page: Registreer
+    sign_up_button: Registreer
+  article:
+    new_article: Nieuw Artikel
+    create_article: Creëer Artikel
+    title_article: Titel
+    content_article: Inhoud
+    edit_article: Wijzig artikel
+    delete_article: Verwijder artikel
+    submit_article: Verzend
+    success_create: Artikel succesvol gecreëerd.
+    success_update: Artikel succesvol gewijzigd.
+    success_delete: Artikel succesvol verwijderd.
   sign_in:
-    main: Log in
+    new_session: Schrijf in
+    new_session_page: Schrijf in
+    sign_in_button: Schrijf in
   log_out:
-    main: Log uit
-  pay_with_card:
-    main: Betaal met kaart
+    destroy_user: Log uit
+  pay:
+    subscription: Betaal met kaart
+    new_subscription: Abonnement
+  local_articles:
+    main: Lokale artikelen
+  all_articles:
+    main: Alle artikelen
+  comment:
+    comment: Commentaar
+    email: E-mail
+    submit_comment: Verzend
+    success: "Commentaar succesvol gecreëerd."
+  password:
+    forgot_password: Wachtwoord vergeten?
+    reset_password_button: Stuur mij herstel wachtwoord instructies
+  field:
+    cannot_be_empty: Velden kunnen niet leeg zijn.

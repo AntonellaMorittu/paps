@@ -14,6 +14,9 @@ sv:
     edit_article: Redigera artikeln
     delete_article: Radera artikeln
     submit_article: Lämna
+    success_create: Artikel skapad.
+    success_update: Artikel uppdaterad.
+    success_delete: Artikel borttagen.
   sign_in:
     new_session: Logga in
     new_session_page: Logga in
@@ -31,3 +34,9 @@ sv:
     comment: Kommentar
     email: E-post
     submit_comment: Lämna
+    success: "Din kommentar är skapad."
+  password:
+    forgot_password: Glömt ditt lösenord?
+    reset_password_button: Skicka instruktion att återställa lösenord
+  field:
+    cannot_be_empty: Fälten kan inte vara tomma.

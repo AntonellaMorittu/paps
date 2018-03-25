@@ -1,0 +1,42 @@
+ita:
+  header:
+    main: BENVENUTO!
+    second: ◊ Diffondi il sapere! ◊
+  sign_up:
+    new_user: Registrati
+    sign_up_page: Registrati
+    sign_up_button: Registrati
+  article:
+    new_article: Nuovo Articolo
+    create_article: Crea Articolo
+    title_article: Titolo
+    content_article: Contenuto
+    edit_article: Modifica Articolo
+    delete_article: Cancella Articolo
+    submit_article: Invia
+    success_create: Articolo creato con successo.
+    success_update: Articolo aggiornato con successo.
+    success_delete: Articolo cancellato con successo.
+  sign_in:
+    new_session: Accedi
+    new_session_page: Accedi
+    sign_in_button: Accedi
+  log_out:
+    destroy_user: Esci
+  pay:
+    subscription: Paga con carta
+    new_subscription: Abbonamento
+  local_articles:
+    main: Articoli locali
+  all_articles:
+    main: Tutti gli articoli
+  comment:
+    comment: Commenta
+    email: E-mail
+    submit_comment: Invia
+    success: "Commento creato con successo."
+  password:
+    forgot_password: Password dimenticata?
+    reset_password_button: Inviami le istruzioni per reimpostare la password.
+  field:
+    cannot_be_empty: I campi non possono essere vuoti.
