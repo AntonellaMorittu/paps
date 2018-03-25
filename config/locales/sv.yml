@@ -31,3 +31,6 @@ sv:
     comment: Kommentar
     email: E-post
     submit_comment: Lämna
+  password:
+    forgot_password: Glömt ditt lösenord?
+    reset_password_button: Skicka instruktion att återställa lösenord

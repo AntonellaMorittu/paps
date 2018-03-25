@@ -31,3 +31,6 @@ en:
     comment: Comment
     email: E-mail
     submit_comment: Submit
+  password:
+    forgot_password: Forgot your password?
+    reset_password_button: Send me reset password instructions
