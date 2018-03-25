@@ -1,19 +1,19 @@
 %h1= t('header.main')
 %h2= t('header.second')
 %h2= @edition
-= link_to t("signup.main"), new_user_registration_path
-= link_to t("newarticle.main"), new_article_path
-= link_to t("signin.main"), new_user_session_path
-= link_to t("logout.main"), destroy_user_session_path, method: :delete
-= link_to t("pay.main"), new_subscription_path
+= link_to t("sign_up.new_user"), new_user_registration_path
+= link_to t("article.new_article"), new_article_path
+= link_to t("sign_in.new_session"), new_user_session_path
+= link_to t("log_out.destroy_user"), destroy_user_session_path, method: :delete
+= link_to t("pay.subscription"), new_subscription_path
 - if @local_articles
-  %h3= t('localarticles.main')
+  %h3= t('local_articles.main')
   - @local_articles.each do |article|
     %p= link_to "#{article.title}", article_path(article)
     %p= sanitize(truncate(article.content, length: 150))
 
 - if @articles
-  %h3= t('allarticles.main')
+  %h3= t('all_articles.main')
   - @articles.each do |article|
     %p= link_to "#{article.title}", article_path(article)
     %p= sanitize(truncate(article.content, length: 150))

@@ -2,17 +2,32 @@ sv:
   header:
     main: VÄLKOMMEN!
     second: ◊ Sprid nyheterna ◊
-  signup:
-    main: Registrera
-  newarticle:
-    main: Ny Artikel
-  signin:
-    main: Logga in
-  logout:
-    main: Logga ut
+  sign_up:
+    new_user: Registrera
+    sign_up_page: Registrera
+    sign_up_button: Registrera
+  article:
+    new_article: Ny Artikel
+    create_article: Skapa artikel
+    title_article: Titel
+    content_article: Innehåll
+    edit_article: Redigera artikeln
+    delete_article: Radera artikeln
+    submit_article: Lämna
+  sign_in:
+    new_session: Logga in
+    new_session_page: Logga in
+    sign_in_button: Logga in
+  log_out:
+    destroy_user: Logga ut
   pay:
-    main: Kortbetalning
-  localarticles:
+    subscription: Kortbetalning
+    new_subscription: Prenumeration
+  local_articles:
     main: Lokala Artiklar
-  allarticles:
+  all_articles:
     main: Alla Artiklar
+  comment:
+    comment: Kommentar
+    email: E-post
+    submit_comment: Lämna

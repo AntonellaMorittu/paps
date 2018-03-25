@@ -2,17 +2,32 @@ en:
   header:
     main: WELCOME!
     second: ◊ Spread the news ◊
-  signup:
-    main: Sign Up
-  newarticle:
-    main: New Article
-  signin:
-    main: Sign In
-  logout:
-    main: Logout
+  sign_up:
+    new_user: Sign up
+    sign_up_page: Sign up
+    sign_up_button: Sign up
+  article:
+    new_article: New Article
+    create_article: Create article
+    title_article: Title
+    content_article: Content
+    edit_article: Edit article
+    delete_article: Delete Article
+    submit_article: Submit
+  sign_in:
+    new_session: Sign in
+    new_session_page: Sign in
+    sign_in_button: Sign in
+  log_out:
+    destroy_user: Logout
   pay:
-    main: Pay with card
-  localarticles:
+    subscription: Pay with card
+    new_subscription: Subscription
+  local_articles:
     main: Local Articles
-  allarticles:
+  all_articles:
     main: All Articles
+  comment:
+    comment: Comment
+    email: E-mail
+    submit_comment: Submit
