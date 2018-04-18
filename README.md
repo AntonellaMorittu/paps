@@ -1,8 +1,10 @@
 # Pap News 
 
+
 Welcome to Pap News - _Spread the knowledge!_
 
 ## Description
+
 Week 8 Project of Craft Academy cohort January 2018.
 
 PapsNews is a newsagency Web Application used to share your local and international news directly on your device screen.  
@@ -28,23 +30,6 @@ Install Ruby on Rails 5.2
 ```
 gem install rails -v 5.2
 ```
-### Installing
-
-A step by step series of examples that tell you have to get a development env running
-
-Say what the step will be
-
-```
-Give the example
-```
-
-And repeat
-
-```
-until finished
-```
-
-End with an example of getting some data out of the system or using it for a little demo
 
 ## Testing
 
@@ -70,7 +55,6 @@ cucumber
 ```
 
 
-
 ### Unit Tests 
 
 Unit test are written in rspec
@@ -79,17 +63,9 @@ Unit test are written in rspec
 rspec
 ```
 
-### And coding style tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
 ## Deployment
 
-Add additional notes about how to deploy this on a live system
+Continuous Integration with Heroku
 
 
 ## Technologies
@@ -104,11 +80,10 @@ Devise
 Pundit
 i18n
 Active Storage
+Heroku
+Coveralls
+Sepamphore CI
 
-
-## Versioning
-
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags). 
 
 ## Authors
 
